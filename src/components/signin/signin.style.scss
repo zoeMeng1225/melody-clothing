@@ -1,8 +1,11 @@
 .sign-in{
+  display: flex;
+  flex-direction: column;
   width: 50%;
+  margin-right: 2em;
 }
 
 .buttons{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between
 }
