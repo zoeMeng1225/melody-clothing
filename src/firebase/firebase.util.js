@@ -5,17 +5,8 @@ import 'firebase/auth';
 
 
 const config = {
-<<<<<<< HEAD
-    apiKey: "AIzaSyBX6mWiCdS7yBaK5k9gfLQV9ihvgrdXWQs",
-    authDomain: "melody-db.firebaseapp.com",
-    projectId: "melody-db",
-    storageBucket: "melody-db.appspot.com",
-    messagingSenderId: "415771776833",
-    appId: "1:415771776833:web:552bcd00073cbb0b0073c0",
-    measurementId: "G-2JD7HFL6JQ"
-=======
+
     // input SDK in your firebase
->>>>>>> daa11274adbd6168fad1f56d929fa8dbf9cdbf60
 };
 
 export const createUserProfileDocument = async (userAuth, addtionalData) => {
